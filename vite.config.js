@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['react', 'react-dom'], // Specify external libraries
+      external: ['react', 'react-dom/client'], // Specify external libraries
     },
   },
 });
